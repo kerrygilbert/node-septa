@@ -2,11 +2,11 @@ var http = require('http');
 
 module.exports = septa;
 
-function septa(app) {
-  return new septa.Septa(app);
+function septa() {
+  return new septa.Septa();
 }
 
-septa.Septa = function(app) {
+septa.Septa = function() {
   var self = this;
 
   /* Makes an http request and attempts to turn the response data into a JSON object */
