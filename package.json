@@ -1,0 +1,22 @@
+{
+  "name": "node-septa",
+  "version": "0.0.1",
+  "description": "Node library that simplifies SEPTA's real-time data API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:colpanik/node-septa.git"
+  },
+  "keywords": [
+    "bus",
+    "tranist",
+    "septa"
+  ],
+  "author": "Kerry Gilbert",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
